@@ -1,0 +1,17 @@
+<div class="container skills-container" data-aos="fade-up" id="skills">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="h4 text-center mb-4 title" data-aos="fade-down">Skills</div>
+        <div class="row">
+          <div class="col-md-4" *ngFor="let skill of skills" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-item">
+              <div class="skill-name">{{ skill.skill }}</div>
+              <div class="skill-bar">
+                <div class="skill-level" [style.width]="skill.progress"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

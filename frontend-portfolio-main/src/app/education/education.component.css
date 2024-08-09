@@ -1,0 +1,22 @@
+.education {
+    margin-top: 60px;
+}
+
+/* Education Style */
+.cc-education .h5 {
+    margin-bottom: 0;
+  }
+  
+.cc-education .cc-education-header {
+    padding-top: 60px;
+    padding-right: 0;
+    text-align: center;
+    color: #fff;
+}
+
+h4{
+color:#4a4843;
+font-size: 20px;
+margin-bottom: 10px;
+margin-top:2px;
+}

@@ -1,0 +1,21 @@
+<div class="container timeline-container" id="experience">
+  <div class="row">
+    <div class="col-lg-12 timeline">
+      <div class="h4 text-center mb-4 title" data-aos="fade-down">Work Experience</div>
+      <div class="timeline-item" *ngFor="let experience of workexp" data-aos="fade-up" data-aos-delay="100">
+        <div class="timeline-icon">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="timeline-content shadow border">
+          <h2>{{experience.company}}</h2>
+          <h3>{{experience.role}}</h3>
+          <span class="date">{{experience.startDate}} - {{experience.endDate}}</span>
+          <ul>
+            <li *ngFor="let duty of experience.duties">{{duty}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

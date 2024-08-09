@@ -1,0 +1,40 @@
+.container.skills-container {
+    padding: 50px 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .skill-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .skill-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .skill-bar {
+    background-color: #ccc9c9;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 10px;
+  }
+  
+  .skill-level {
+    background-color:  black;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+  }
+  

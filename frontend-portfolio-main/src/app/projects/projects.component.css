@@ -1,0 +1,65 @@
+ .card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  } 
+  .card-img-top {
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem; /* Add space between the technology badges */
+  }
+  
+  .technology-list {
+    color: black;
+  }
+  .badge {
+    margin-bottom: 0.5rem; /* Ensure badges are spaced nicely */
+  }
+
+/* Custom pagination styles */
+.custom-pagination .ngx-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-pagination .ngx-pagination li {
+  margin: 0 5px; /* Adjust the spacing as needed */
+}
+
+.custom-pagination .ngx-pagination a,
+.custom-pagination .ngx-pagination a:visited {
+  background-color: #343a40 !important; /* Dark background */
+  color: white !important; /* Text color */
+  border: 1px solid #343a40 !important; /* Border to match the background */
+  padding: 8px 12px; /* Padding for clickable area */
+  text-decoration: none; /* Remove underline */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.custom-pagination .ngx-pagination a:hover {
+  background-color: #495057 !important; /* Slightly lighter dark background on hover */
+}
+
+/* Ensure the current page has a black background */
+.custom-pagination .ngx-pagination .current a {
+  background-color: #000000 !important; /* Black background for current page */
+  border-color: #000000 !important; /* Border to match the black background */
+  color: white !important; /* Ensure text color is white */
+}
+
